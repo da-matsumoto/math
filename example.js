@@ -1,21 +1,22 @@
-function setup(){	//最初に実行される
-	
-}
-
-function loop(){	//常時実行される
+function setup() {
 	ctx.beginPath();
-	ctx.arc(curYubiX, curYubiY, 200, 0, Math.PI*2);
+	ctx.moveTo(200, 100);
+	ctx.lineTo(800, 900);
 	ctx.stroke();
 }
 
-function touchStart(){	//タッチ(マウスダウン)されたら
+function loop() {
+
+}
+
+function touchStart() {
 	
 }
 
-function touchMove(){	//指が動いたら(マウスが動いたら)
+function touchMove() {
 	
 }
 
-function touchEnd(){	//指が離されたら(マウスアップ)
+function touchEnd() {
 	
 }
