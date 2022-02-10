@@ -13,6 +13,18 @@ function setup() {
 	ctx.lineTo(0, 0);
 	ctx.stroke();
 
+	// 三次のベジェ曲線
+	ctx.beginPath();
+	ctx.moveTo(100, 100);
+	ctx.bezierCurveTo(300, 200, 100, 300, 200, 400);
+	ctx.stroke();
+
+	// 二次のベジェ曲線
+	ctx.beginPath();
+	ctx.moveTo(200, 500);
+	ctx.quadraticCurveTo(300, 600, 100, 700);
+	ctx.stroke();
+
 	// 塗りつぶし
 	ctx.beginPath();
 	ctx.moveTo(screenWidth*0.5, screenHeight*0.1);
