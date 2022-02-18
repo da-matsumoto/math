@@ -35,7 +35,6 @@ function setup() {
 }
 
 function loop() {
-
 }
 
 function touchStart() {
